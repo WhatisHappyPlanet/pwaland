@@ -1,3 +1,22 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+}
+
+.box img {
+  width: 48px;
+  height: 48px;
+}
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
