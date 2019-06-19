@@ -1,67 +1,52 @@
 [
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "saber",
-        "icon": "https://saber.land/img/icons/icon_256x256.png",
-        "link": "https://saber.land/"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    },
-    {
-        "title": "Gatsby",
-        "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-        "link": "https://www.gatsbyjs.org"
-    }
+  {
+    "title": "Gatsby",
+    "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
+    "link": "https://www.gatsbyjs.org/"
+  },
+  {
+    "title": "saber",
+    "icon": "https://saber.land/img/icons/icon_256x256.png",
+    "link": "https://saber.land/"
+  },
+  {
+    "title": "GitHub Explorer",
+    "link": "https://github-e.com/",
+    "icon": "https://github-e.com/assets/inspectocat.png"
+  },
+  {
+    "title": "Kent C. Dodds",
+    "link": "https://kentcdodds.com/",
+    "icon": "https://kentcdodds.com/favicons/android-chrome-192x192.png"
+  },
+  {
+    "title": "Outweb",
+    "link": "https://outweb.io/",
+    "icon": "https://outweb.io//144.png"
+  },
+  {
+    "title": "Progressive Web Apps",
+    "link": "https://pwa.rocks/",
+    "icon": "https://pwa.rocks/favicon.ico"
+  },
+  {
+    "title": "Snapwat",
+    "link": "https://snapw.at/",
+    "icon": "https://snapw.at/images/homescreen/192.png"
+  },
+  {
+    "title": "VuePress",
+    "link": "https://vuepress.vuejs.org/",
+    "icon": "https://vuepress.vuejs.org/icons/android-chrome-192x192.png"
+  },
+  {
+    "title": "Chrome Platform Status",
+    "link": "https://www.chromestatus.com/",
+    "icon": "https://www.chromestatus.com/static/img/crstatus_72.png"
+  },
+  {
+    "title": "Netlify",
+    "link": "https://netlify.com/",
+    "icon": "https://netlify.com//img/global/favicon/android-chrome-192x192.png"
+  }
 ]

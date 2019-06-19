@@ -16,6 +16,10 @@
   height: 48px;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 html {
   font-family: sans-serif;
