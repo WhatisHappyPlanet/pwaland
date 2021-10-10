@@ -57,6 +57,11 @@ const pwalist = sortLetter(data);
 		align-items: center;
 		margin: 18px 0;
 		flex: 0 0 33%;
+		transition: all 0.5s;
+	}
+
+	.box:hover {
+		transform: scale(1.2);
 	}
 
 	.box img {
