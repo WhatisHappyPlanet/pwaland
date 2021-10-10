@@ -1,13 +1,13 @@
 [
   {
     "title": "Gatsby",
-    "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606",
-    "link": "https://www.gatsbyjs.org/"
+    "link": "https://www.gatsbyjs.org/",
+    "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"
   },
   {
     "title": "Saber",
-    "icon": "https://saber.land/img/icons/icon_256x256.png",
-    "link": "https://saber.land/"
+    "link": "https://saber.land/",
+    "icon": "https://saber.land/img/icons/icon_256x256.png"
   },
   {
     "title": "GitHub Explorer",
