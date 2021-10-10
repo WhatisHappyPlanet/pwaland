@@ -1,0 +1,315 @@
+dependencies:
+  svelte: registry.npmmirror.com/svelte/3.43.1
+devDependencies:
+  svelteup: registry.npmmirror.com/svelteup/1.0.6
+lockfileVersion: 5.2
+packages:
+  /anymatch/3.1.2:
+    dependencies:
+      normalize-path: 3.0.0
+      picomatch: registry.nlark.com/picomatch/2.3.0
+    dev: true
+    engines:
+      node: '>= 8'
+    resolution:
+      integrity: sha1-wFV8CWrzLxBhmPT04qODU343hxY=
+      tarball: anymatch/download/anymatch-3.1.2.tgz?cache=0&sync_timestamp=1617748091214&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fanymatch%2Fdownload%2Fanymatch-3.1.2.tgz
+  /binary-extensions/2.2.0:
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
+      tarball: binary-extensions/download/binary-extensions-2.2.0.tgz
+  /braces/3.0.2:
+    dependencies:
+      fill-range: registry.nlark.com/fill-range/7.0.1
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
+      tarball: braces/download/braces-3.0.2.tgz
+  /fsevents/2.3.2:
+    dev: true
+    engines:
+      node: ^8.16.0 || ^10.6.0 || >=11.0.0
+    optional: true
+    resolution:
+      integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
+      tarball: fsevents/download/fsevents-2.3.2.tgz
+  /is-binary-path/2.1.0:
+    dependencies:
+      binary-extensions: 2.2.0
+    dev: true
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=
+      tarball: is-binary-path/download/is-binary-path-2.1.0.tgz
+  /is-extglob/2.1.1:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+      tarball: is-extglob/download/is-extglob-2.1.1.tgz
+  /is-number/7.0.0:
+    dev: true
+    engines:
+      node: '>=0.12.0'
+    resolution:
+      integrity: sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
+      tarball: is-number/download/is-number-7.0.0.tgz
+  /mime/2.5.2:
+    dev: true
+    engines:
+      node: '>=4.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-bj3GzCuVEGQ4MOXxnVy3U9pe6r4=
+      tarball: mime/download/mime-2.5.2.tgz
+  /normalize-path/3.0.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
+      tarball: normalize-path/download/normalize-path-3.0.0.tgz
+  /readdirp/3.6.0:
+    dependencies:
+      picomatch: registry.nlark.com/picomatch/2.3.0
+    dev: true
+    engines:
+      node: '>=8.10.0'
+    resolution:
+      integrity: sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
+      tarball: readdirp/download/readdirp-3.6.0.tgz?cache=0&sync_timestamp=1615719701333&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freaddirp%2Fdownload%2Freaddirp-3.6.0.tgz
+  /to-regex-range/5.0.1:
+    dependencies:
+      is-number: 7.0.0
+    dev: true
+    engines:
+      node: '>=8.0'
+    resolution:
+      integrity: sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
+      tarball: to-regex-range/download/to-regex-range-5.0.1.tgz
+  /totalist/1.1.0:
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha1-pNZaPlRlF3AePlw3pHpwrJf+Vt8=
+      tarball: totalist/download/totalist-1.1.0.tgz
+  registry.nlark.com/chokidar/3.5.2:
+    dependencies:
+      anymatch: 3.1.2
+      braces: 3.0.2
+      glob-parent: registry.npmmirror.com/glob-parent/5.1.2
+      is-binary-path: 2.1.0
+      is-glob: registry.npmmirror.com/is-glob/4.0.3
+      normalize-path: 3.0.0
+      readdirp: 3.6.0
+    dev: true
+    engines:
+      node: '>= 8.10.0'
+    name: chokidar
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha1-26OXb8rbAW9m/TZQIdkWANAcHnU=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/chokidar/download/chokidar-3.5.2.tgz?cache=0&sync_timestamp=1623763736136&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchokidar%2Fdownload%2Fchokidar-3.5.2.tgz
+    version: 3.5.2
+  registry.nlark.com/fill-range/7.0.1:
+    dependencies:
+      to-regex-range: 5.0.1
+    dev: true
+    engines:
+      node: '>=8'
+    name: fill-range
+    resolution:
+      integrity: sha1-GRmmp8df44ssfHflGYU12prN2kA=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/fill-range/download/fill-range-7.0.1.tgz
+    version: 7.0.1
+  registry.nlark.com/livereload-js/3.3.2:
+    dev: true
+    name: livereload-js
+    resolution:
+      integrity: sha1-yIsAnG5GaxW5H6om/XyZ1iDhJlE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/livereload-js/download/livereload-js-3.3.2.tgz
+    version: 3.3.2
+  registry.nlark.com/livereload/0.9.3:
+    dependencies:
+      chokidar: registry.nlark.com/chokidar/3.5.2
+      livereload-js: registry.nlark.com/livereload-js/3.3.2
+      opts: registry.nlark.com/opts/2.0.2
+      ws: registry.npmmirror.com/ws/7.5.5
+    dev: true
+    engines:
+      node: '>=8.0.0'
+    hasBin: true
+    name: livereload
+    resolution:
+      integrity: sha1-pxSBY3XtUkcUCL7ei0my7moMVbE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/livereload/download/livereload-0.9.3.tgz
+    version: 0.9.3
+  registry.nlark.com/mri/1.2.0:
+    dev: true
+    engines:
+      node: '>=4'
+    name: mri
+    resolution:
+      integrity: sha1-ZyFID+wqEaSImGERWki2y+fMjws=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/mri/download/mri-1.2.0.tgz
+    version: 1.2.0
+  registry.nlark.com/opts/2.0.2:
+    dev: true
+    name: opts
+    resolution:
+      integrity: sha1-oX4Yn7v+4XHaVZ7dikJCO8WZPOE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/opts/download/opts-2.0.2.tgz
+    version: 2.0.2
+  registry.nlark.com/picomatch/2.3.0:
+    dev: true
+    engines:
+      node: '>=8.6'
+    name: picomatch
+    resolution:
+      integrity: sha1-8fBh3o9qS/AiiS4tEoI0+5gwKXI=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/picomatch/download/picomatch-2.3.0.tgz
+    version: 2.3.0
+  registry.nlark.com/sade/1.7.4:
+    dependencies:
+      mri: registry.nlark.com/mri/1.2.0
+    dev: true
+    engines:
+      node: '>= 6'
+    name: sade
+    resolution:
+      integrity: sha1-6mgeDGXSSNIJXJBXjAPKC7G1RpE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/sade/download/sade-1.7.4.tgz
+    version: 1.7.4
+  registry.nlark.com/sirv/1.0.17:
+    dependencies:
+      '@polka/url': registry.npmmirror.com/@polka/url/1.0.0-next.21
+      mime: 2.5.2
+      totalist: 1.1.0
+    dev: true
+    engines:
+      node: '>= 10'
+    name: sirv
+    resolution:
+      integrity: sha1-huLGPGEtpaHazhwWxG9SSqomrEU=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.nlark.com/sirv/download/sirv-1.0.17.tgz
+    version: 1.0.17
+  registry.npmmirror.com/@polka/url/1.0.0-next.21:
+    dev: true
+    name: '@polka/url'
+    resolution:
+      integrity: sha1-XeWiOFo1MJQn9gEZkrVEUU1VmqE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/@polka/url/download/@polka/url-1.0.0-next.21.tgz
+    version: 1.0.0-next.21
+  registry.npmmirror.com/esbuild-svelte/0.5.6_esbuild@0.12.29:
+    dependencies:
+      esbuild: registry.npmmirror.com/esbuild/0.12.29
+      svelte: registry.npmmirror.com/svelte/3.43.1
+    dev: true
+    id: registry.npmmirror.com/esbuild-svelte/0.5.6
+    name: esbuild-svelte
+    peerDependencies:
+      esbuild: '>=0.9.6'
+    resolution:
+      integrity: sha1-FwqIo1HFtIxZtEK+/L2PiGFmQco=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/esbuild-svelte/download/esbuild-svelte-0.5.6.tgz
+    version: 0.5.6
+  registry.npmmirror.com/esbuild/0.12.29:
+    dev: true
+    hasBin: true
+    name: esbuild
+    requiresBuild: true
+    resolution:
+      integrity: sha1-vmAtt8TceJRKnb3g0eoZ02wfiC0=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/esbuild/download/esbuild-0.12.29.tgz?cache=0&sync_timestamp=1633600894262&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fesbuild%2Fdownload%2Fesbuild-0.12.29.tgz
+    version: 0.12.29
+  registry.npmmirror.com/glob-parent/5.1.2:
+    dependencies:
+      is-glob: registry.npmmirror.com/is-glob/4.0.3
+    dev: true
+    engines:
+      node: '>= 6'
+    name: glob-parent
+    resolution:
+      integrity: sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/glob-parent/download/glob-parent-5.1.2.tgz
+    version: 5.1.2
+  registry.npmmirror.com/is-glob/4.0.3:
+    dependencies:
+      is-extglob: 2.1.1
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    name: is-glob
+    resolution:
+      integrity: sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/is-glob/download/is-glob-4.0.3.tgz
+    version: 4.0.3
+  registry.npmmirror.com/svelte/3.43.1:
+    engines:
+      node: '>= 8'
+    name: svelte
+    resolution:
+      integrity: sha1-g3DAipcLzBwRi6qoajj66C4Kg5Y=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/svelte/download/svelte-3.43.1.tgz
+    version: 3.43.1
+  registry.npmmirror.com/svelteup/1.0.6:
+    dependencies:
+      esbuild: registry.npmmirror.com/esbuild/0.12.29
+      esbuild-svelte: registry.npmmirror.com/esbuild-svelte/0.5.6_esbuild@0.12.29
+      livereload: registry.nlark.com/livereload/0.9.3
+      sade: registry.nlark.com/sade/1.7.4
+      sirv: registry.nlark.com/sirv/1.0.17
+      svelte: registry.npmmirror.com/svelte/3.43.1
+    dev: true
+    hasBin: true
+    name: svelteup
+    resolution:
+      integrity: sha1-qUDt4hBlHlSf1C9OJH3q9chI1x8=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/svelteup/download/svelteup-1.0.6.tgz
+    version: 1.0.6
+  registry.npmmirror.com/ws/7.5.5:
+    dev: true
+    engines:
+      node: '>=8.3.0'
+    name: ws
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    resolution:
+      integrity: sha1-i0vEr1GM+r0Ec65PmRRCh7M+uIE=
+      registry: https://registry.npm.taobao.org/
+      tarball: https://registry.npmmirror.com/ws/download/ws-7.5.5.tgz
+    version: 7.5.5
+specifiers:
+  svelte: ^3.0.0
+  svelteup: ^1.0.3

@@ -5,7 +5,7 @@
     "link": "https://www.gatsbyjs.org/"
   },
   {
-    "title": "saber",
+    "title": "Saber",
     "icon": "https://saber.land/img/icons/icon_256x256.png",
     "link": "https://saber.land/"
   },
@@ -18,16 +18,6 @@
     "title": "Kent C. Dodds",
     "link": "https://kentcdodds.com/",
     "icon": "https://kentcdodds.com/favicons/android-chrome-192x192.png"
-  },
-  {
-    "title": "Outweb",
-    "link": "https://outweb.io/",
-    "icon": "https://outweb.io//144.png"
-  },
-  {
-    "title": "Progressive Web Apps",
-    "link": "https://pwa.rocks/",
-    "icon": "https://pwa.rocks/favicon.ico"
   },
   {
     "title": "Snapwat",
@@ -47,6 +37,6 @@
   {
     "title": "Netlify",
     "link": "https://netlify.com/",
-    "icon": "https://netlify.com//img/global/favicon/android-chrome-192x192.png"
+    "icon": "https://netlify.com/img/global/favicon/android-chrome-192x192.png"
   }
 ]
