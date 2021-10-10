@@ -1,5 +1,15 @@
 [
   {
+    "title": "Alligator.io",
+    "link": "https://alligator.io",
+    "icon": "https://alligator.io/assets/images/icons/icon-144x144.png"
+  },
+  {
+    "title": "Diagrams Net",
+    "link": "https://app.diagrams.net/",
+    "icon": "https://app.diagrams.net/images/android-chrome-192x192.png"
+  },
+  {
     "title": "React Native Documentation",
     "link": "https://reactnative.dev/",
     "icon": "https://reactnative.dev/img/pwa/manifest-icon-192.png"
