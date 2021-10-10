@@ -1,5 +1,10 @@
 [
   {
+    "title": "React Native Documentation",
+    "link": "https://reactnative.dev/",
+    "icon": "https://reactnative.dev/img/pwa/manifest-icon-192.png"
+  },
+  {
     "title": "Weibo Lite",
     "link": "https://m.weibo.cn/",
     "icon": "https://h5.sinaimg.cn/m/weibo-lite/icon-default-192.png"
@@ -15,11 +20,6 @@
     "icon": "https://brandonxiang.vercel.app/icon/logo-192.png"
   },
   {
-    "title": "Gatsby",
-    "link": "https://www.gatsbyjs.org/",
-    "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"
-  },
-  {
     "title": "Saber",
     "link": "https://saber.land/",
     "icon": "https://saber.land/img/icons/icon_256x256.png"
@@ -30,11 +30,6 @@
     "icon": "https://github-e.com/assets/inspectocat.png"
   },
   {
-    "title": "Kent C. Dodds",
-    "link": "https://kentcdodds.com/",
-    "icon": "https://kentcdodds.com/favicons/android-chrome-192x192.png"
-  },
-  {
     "title": "Snapwat",
     "link": "https://snapw.at/",
     "icon": "https://snapw.at/images/homescreen/192.png"
@@ -43,15 +38,5 @@
     "title": "VuePress",
     "link": "https://vuepress.vuejs.org/",
     "icon": "https://vuepress.vuejs.org/icons/android-chrome-192x192.png"
-  },
-  {
-    "title": "Chrome Platform Status",
-    "link": "https://www.chromestatus.com/",
-    "icon": "https://www.chromestatus.com/static/img/crstatus_72.png"
-  },
-  {
-    "title": "Netlify",
-    "link": "https://netlify.com/",
-    "icon": "https://netlify.com/img/global/favicon/android-chrome-192x192.png"
   }
 ]
