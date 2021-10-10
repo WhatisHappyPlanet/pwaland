@@ -1,5 +1,20 @@
 [
   {
+    "title": "Weibo Lite",
+    "link": "https://m.weibo.cn/",
+    "icon": "https://h5.sinaimg.cn/m/weibo-lite/icon-default-192.png"
+  },
+  {
+    "title": "Twitter",
+    "link": "https://twitter.com/",
+    "icon": "https://abs.twimg.com/responsive-web/client-web/icon-default.ee534d85.png"
+  },
+  {
+    "title": "Brandon's Blog",
+    "link": "https://brandonxiang.vercel.app/",
+    "icon": "https://brandonxiang.vercel.app/icon/logo-192.png"
+  },
+  {
     "title": "Gatsby",
     "link": "https://www.gatsbyjs.org/",
     "icon": "https://www.gatsbyjs.org/icons/icon-48x48.png?v=008654519ce705ac7bc44303a9014606"
