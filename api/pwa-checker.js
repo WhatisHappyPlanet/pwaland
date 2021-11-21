@@ -1,6 +1,6 @@
-import puppeteer from 'puppeteer';
-import fetch from 'node-fetch';
-import url from 'url';
+const puppeteer = require('puppeteer');
+const fetch = require('node-fetch');
+const url = require('url');
 
 const checkPwa = async (inputLink) => {
   // Step 1: launch browser and open a new page.
@@ -52,14 +52,5 @@ const checkPwa = async (inputLink) => {
 }
 
 export default function handler(req, res) {
-  const { url } = req.query;
-  checkPwa(url)
-  .then((res) => {
-    res.status(200).json(res);
-  })
-  .catch((err) => {
-    // The process will timeout after 3s, if no service worker is registered
-    console.error(err.message);
-    res.status(500).end(err.message);
-  });
+  res.end('hello')
 }
