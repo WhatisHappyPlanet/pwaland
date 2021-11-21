@@ -1,7 +1,10 @@
 <svelte:options tag="nav-bar"/>
 
 <nav>
-  <div class="title">PWALAND</div>
+  <span class="title" href="">PWALAND</span>
+  <a class="link" href="/">Home</a>
+  <a class="link" href="/pwa-check.html">Checker</a>
+  <a class="link" href="https://github.com/brandonxiang/pwaland">Github</a>
 </nav>
 
 <style>
@@ -23,5 +26,14 @@
     font-weight: 500;
     font-size: 25px;
     line-height: 80px;
+    padding-right: 30px;
+  }
+
+  .link {
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    padding-right: 10px;
+    text-decoration: none;
   }
 </style>

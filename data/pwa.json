@@ -48,5 +48,48 @@
     "title": "VuePress",
     "link": "https://vuepress.vuejs.org/",
     "icon": "https://vuepress.vuejs.org/icons/android-chrome-192x192.png"
+  },
+  {
+    "title": "Carbon",
+    "short_name": "Carbon",
+    "description": "Carbon is the easiest way to create and share beautiful images of your source code.",
+    "link": "https://carbon.now.sh",
+    "icon": "https://carbon.now.sh/static/brand/icon.png"
+  },
+  {
+    "title": "Vue CLI",
+    "short_name": "Vue CLI",
+    "link": "https://cli.vuejs.org/",
+    "icon": "https://cli.vuejs.org/icons/android-chrome-192x192.png"
+  },
+  {
+    "title": "Google Cloud",
+    "short_name": "Google Cloud",
+    "link": "https://cloud.google.com/",
+    "icon": "https://cloud.google.com/icons/icon-72x72.png"
+  },
+  {
+    "title": "Google Developers",
+    "short_name": "Google Developers",
+    "link": "https://developers.google.com/",
+    "icon": "https://developers.google.com/icons/icon-72x72.png"
+  },
+  {
+    "title": "Docusaurus v2",
+    "short_name": "Docusaurus",
+    "link": "https://docusaurus.io/",
+    "icon": "https://docusaurus.io/img/icons/icon-72x72.png"
+  },
+  {
+    "title": "Harttle Land",
+    "short_name": "Harttle Land",
+    "link": "https://harttle.land/",
+    "icon": "https://harttle.land/assets/img/favicon-48x48.png"
+  },
+  {
+    "title": "Jest",
+    "short_name": "Jest",
+    "link": "https://jestjs.io/",
+    "icon": "https://jestjs.io/img/favicon/android-chrome-192x192.png"
   }
 ]

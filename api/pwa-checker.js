@@ -1,8 +1,11 @@
 const puppeteer = require('puppeteer');
-const fetch = require('node-fetch');
+const { get } = require('httpie');
 const url = require('url');
 
+const timeout = 20;
+
 const checkPwa = async (inputLink) => {
+  inputLink = 'https://' + inputLink;
   // Step 1: launch browser and open a new page.
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
@@ -10,15 +13,14 @@ const checkPwa = async (inputLink) => {
   // Step 2: Go to a URL and wait for a service worker to register.
 
   await page.goto(inputLink)
-  const swTarget = await browser.waitForTarget(target => target.type() === 'service_worker', { timeout: 5 })
+  const swTarget = await browser.waitForTarget(target => target.type() === 'service_worker', { timeout })
 
   // Step 3: If a service worker is registered, print URL of SW file to the console 
   if(swTarget && swTarget._targetInfo['url']) {
     const manifest = await page.$('[rel="manifest"]');
     const manifestUrl = await manifest.evaluate(node => node.href);
 
-    const response = await fetch(manifestUrl);
-    const data = await response.json();
+    const { data } = await get(manifestUrl);
 
     let icon = '';
 
@@ -32,14 +34,12 @@ const checkPwa = async (inputLink) => {
     const reHttps = /(http|https):\/\/([\w.]+\/?)\S*/;
     if(!reHttps.test(icon)){
       icon = url.resolve(inputLink, icon);
-    }
-
-    console.log(data.icons);
+    } 
     // Step 4: Done. Close.
     await browser.close();
 
     return {
-      name: data.name,
+      title: data.name,
       short_name: data.short_name,
       description: data.description,
       link: inputLink,
@@ -52,5 +52,21 @@ const checkPwa = async (inputLink) => {
 }
 
 export default function handler(req, res) {
-  res.end('hello')
+  const { url } = req.query;
+  if(url) {
+    checkPwa(url)
+    .then((output) => {
+      res.status(200).json(output);
+    })
+    .catch((err) => {
+      res.status(500).json({
+        message: 'This is not a PWA',
+        "error-message": err.message
+      });
+    })
+  } else {
+    res.status(500).json({
+      message: 'url is required'
+    });
+  }
 }
