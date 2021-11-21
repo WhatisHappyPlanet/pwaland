@@ -1,13 +1,50 @@
-const puppeteer = require('puppeteer');
+
 const { get } = require('httpie');
 const url = require('url');
 
 const timeout = 20;
 
+let chrome;
+let puppeteer;
+const isAWS = !!process.env.AWS_LAMBDA_FUNCTION_VERSION;
+
+if (isAWS) {
+  // running on the Vercel platform.
+  chrome = require('chrome-aws-lambda');
+  puppeteer = require('puppeteer-core');
+} else {
+  // running locally.
+  puppeteer = require('puppeteer');
+}
+
+
+const getBrowser = async () => {
+  try {
+    let browser
+    if(isAWS) {
+      browser = await puppeteer.launch({
+        args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
+        defaultViewport: chrome.defaultViewport,
+        executablePath: await chrome.executablePath,
+        headless: true,
+        ignoreHTTPSErrors: true,
+      });
+    } else {
+      browser = await puppeteer.launch();
+    }
+     
+    return browser;
+  } catch (err) {
+    console.error(err);
+    return null;
+  }
+}
+
+
 const checkPwa = async (inputLink) => {
   inputLink = 'https://' + inputLink;
   // Step 1: launch browser and open a new page.
-  const browser = await puppeteer.launch()
+  const browser = await getBrowser()
   const page = await browser.newPage()
 
   // Step 2: Go to a URL and wait for a service worker to register.
