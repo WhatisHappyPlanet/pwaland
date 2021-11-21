@@ -1,4 +1,4 @@
-<svelte:options tag="svelte-app"/>
+<svelte:options tag="home-app"/>
 
 
 <script>
