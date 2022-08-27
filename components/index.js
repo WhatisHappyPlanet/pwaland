@@ -1,2 +1,2 @@
-import './home-app.svelte';
-import './pwa-check.svelte';
+import './page-home.svelte';
+import './page-check.svelte';

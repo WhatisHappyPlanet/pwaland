@@ -91,5 +91,29 @@
     "short_name": "Jest",
     "link": "https://jestjs.io/",
     "icon": "https://jestjs.io/img/favicon/android-chrome-192x192.png"
+  },
+  {
+    "title": "tldraw",
+    "short_name": "tldraw",
+    "link": "https://www.tldraw.com/",
+    "icon": "https://www.tldraw.com/android-chrome-512x512.png"
+  },
+  {
+    "title": "Harttle Land",
+    "short_name": "Harttle Land",
+    "link": "https://harttle.land",
+    "icon": "https://harttle.land/assets/img/favicon-48x48.png"
+  },
+  {
+    "title": "mdsvex",
+    "short_name": "mdsvex",
+    "link": "https://mdsvex.com/",
+    "icon": "https://mdsvex.com/android-icon-192x192.png"
+  },
+  {
+    "title": "Modern Web",
+    "short_name": "@web",
+    "link": "https://modern-web.dev/",
+    "icon": "https://modern-web.dev/_merged_assets/_static/icons/android-chrome-192x192.png"
   }
 ]
