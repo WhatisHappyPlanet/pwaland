@@ -4,7 +4,8 @@
   "description": "A simple starter with svelteup",
   "main": "index.js",
   "scripts": {
-    "dev": "svelteup -s public",
+    "vercel:dev": "vercel dev --listen 5000",
+    "start": "svelteup -s public",
     "build": "svelteup"
   },
   "repository": {
@@ -19,9 +20,13 @@
   },
   "homepage": "https://github.com/brandonxiang/svelteup-starter#readme",
   "dependencies": {
-    "svelte": "^3.0.0"
+    "svelte": "^3.0.0",
+    "puppeteer": "^11.0.0",
+    "puppeteer-core": "^11.0.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "httpie": "^1.1.2"
   },
   "devDependencies": {
-    "svelteup": "^1.0.3"
+    "svelteup": "^1.0.0"
   }
 }

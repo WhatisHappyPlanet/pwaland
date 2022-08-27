@@ -1,6 +1,4 @@
 <svelte:options tag="home-app"/>
-
-
 <script>
 
 import './nav-bar.svelte';
@@ -18,6 +16,9 @@ function sortLetter(input) {
 	})
 }
 
+function onImgError(e) {
+	e.target.src = '/noimage.png';
+}
 
 const pwalist = sortLetter(data);
 
@@ -30,7 +31,7 @@ const pwalist = sortLetter(data);
 	<section class="wrap">
 		{#each pwalist as app, index}
 			<a href={app.link} class="box" key={index}>
-				<img src={app.icon} alt={app.title}/>
+				<img src={app.icon} alt={app.title} on:error={onImgError} />
 				<span>{app.title}</span>
 			</a>
 		{/each}
