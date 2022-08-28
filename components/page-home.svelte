@@ -1,8 +1,9 @@
-<svelte:options tag="home-app"/>
+<svelte:options tag="page-home"/>
 <script>
 
-import './nav-bar.svelte';
-import data from '../data/pwa.json'
+import './c-navbar.svelte';
+import { request } from './utils';
+import { onMount } from 'svelte';
 
 function sortLetter(input) {
 	return input.sort((a,b)=> {
@@ -20,11 +21,18 @@ function onImgError(e) {
 	e.target.src = '/noimage.png';
 }
 
-const pwalist = sortLetter(data);
+let pwalist = [];
+
+onMount(async () => {
+	const { data } = await request(`/api/get-list`);
+	pwalist = sortLetter(data);
+}) 
+
+
 
 </script>
 
-<nav-bar />
+<c-navbar />
 
 <main>
 	

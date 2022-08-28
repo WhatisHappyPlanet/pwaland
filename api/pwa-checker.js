@@ -2,7 +2,7 @@
 const { get } = require('httpie');
 const url = require('url');
 
-const timeout = 20;
+const timeout = 60;
 
 let chrome;
 let puppeteer;

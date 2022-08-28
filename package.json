@@ -20,13 +20,15 @@
   },
   "homepage": "https://github.com/brandonxiang/svelteup-starter#readme",
   "dependencies": {
-    "svelte": "^3.0.0",
+    "@supabase/supabase-js": "^1.35.6",
+    "chrome-aws-lambda": "^10.1.0",
+    "httpie": "^1.1.2",
     "puppeteer": "^11.0.0",
     "puppeteer-core": "^11.0.0",
-    "chrome-aws-lambda": "^10.1.0",
-    "httpie": "^1.1.2"
+    "svelte": "^3.0.0"
   },
   "devDependencies": {
-    "svelteup": "^1.0.0"
+    "svelteup": "^1.0.0",
+    "vercel": "28.2.0"
   }
 }
